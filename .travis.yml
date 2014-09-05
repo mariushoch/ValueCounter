@@ -2,4 +2,7 @@ language: cpp
 compiler:
 - gcc
 - clang
-script: make && make test
+before_script:
+- sudo apt-get install -qq libboost-dev
+script:
+- make && make test
