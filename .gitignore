@@ -1,0 +1,4 @@
+*.o
+*.oi
+*.gch
+ValueCounterTests
