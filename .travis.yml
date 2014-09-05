@@ -3,6 +3,6 @@ compiler:
 - gcc
 - clang
 before_script:
-- sudo apt-get install -qq libboost libboost-dev
+- sudo apt-get install -qq libboost-test-dev libboost-dev
 script:
 - make && make test
