@@ -5,4 +5,4 @@ compiler:
 before_script:
 - sudo apt-get install -qq libboost-test-dev libboost-dev
 script:
-- make && make test
+- make test
