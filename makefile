@@ -1,3 +1,4 @@
+default:
 test: ValueCounter.o ValueCounterTests.o
 	g++ -std=c++11 -lboost_unit_test_framework -o ValueCounterTests ValueCounter.o ValueCounterTests.o
 	./ValueCounterTests
