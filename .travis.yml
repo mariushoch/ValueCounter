@@ -4,5 +4,6 @@ compiler:
 - clang
 before_script:
 - sudo apt-get install -qq libboost-test-dev libboost-dev
+- if [ "${CXX}" = 'g++' ]; then export CXX=g++-4.8; fi;
 script:
 - make test
